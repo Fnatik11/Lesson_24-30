@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Open+Sans:wght@300&family=Orbitron:wght@900&family=Press+Start+2P&family=Road+Rage&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Orbitron:wght@900&family=Press+Start+2P&family=Road+Rage&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Orbitron:wght@900&family=Oswald:wght@300&family=Press+Start+2P&family=Road+Rage&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:wght@100&family=Murecho:wght@300&family=Open+Sans:wght@300&family=Orbitron:wght@900&family=Oswald:wght@300&family=Press+Start+2P&family=Road+Rage&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Luxurious + Script & family = Montserrat: wght @ 100 & family = Murecho: wght @ 500 & family = Open + Sans: wght @ 300 & family = Orbitron: wght @ 900 & family = Oswald: wght @ 300; 600 & family = Нажмите + Start + 2P & family = Road + Rage & family = Shadows + Into + Light & display = swap ');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__top{
+  text-shadow: crimson;
+}
+.cheat{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.valanta{
+    width: 131px;
+    height: 72px;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.lang{
+    align-items: center;
+    margin-top: 15px;
+}
+.rulang{
+    width: 35px;
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 2px;
+    height: 20px;
+}
+.ru{
+    color: white;
+}
+.ru,.ua{
+    font-family: 'Murecho', sans-serif;
+}
+.ualang{
+    width: 35px;
+    text-align: center;
+    border-radius: 2px;
+    height: 20px;
+}
+.currency{
+    font-family: 'Murecho', sans-serif;
+    margin-top: 15px;
+    align-items: center;
+}
+.usd{
+    margin-bottom: 7px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.call-numbers{
+    font-family: 'Murecho', sans-serif;
+    align-items: center;
+    margin-top: 15px;
+}
+.phone{
+    margin-left: -20px;
+    width: 36px;
+    height: 40px;
+    align-items: center;
+    margin-top: 15px;
+}
+.youtube{
+   margin-left: 5px; 
+}
+.facebook{
+    margin-right: 5px;
+}
+.inputs{
+    align-items: center;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-inner{
+    height: 30px;
+    align-items: center;
+}
+.nav-list{
+    font-size: 16px;
+}
+.nav-list:hover{
+    text-decoration: red;
+}
+.big-logo{
+    background: url(../IMG/Mask\ Group.png) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+}
+.logo-button1{
+    padding-top:7px;
+    text-align: center;
+    color: #fff;
+    border: 2px #fff solid;
+    width: 250px;
+    height: 45px;
+}
+.small-logo{
+    width: 1220px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.hiht-text{
+    font-size: 45px;
+    color: #fff;
+}
+.text-logo{
+    width: 725px;
+    height: 100px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.logo-button2{
+    border: 1px rgba(255, 255, 255, 0) solid;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.411);
+    margin-top: 30px;
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+.about{
+    width: 100%;
+    background:  #F8F8F8;
+    padding-top: 30px;
+}
+.about-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     font-family: 'Monserrat', sans-serif;
+     justify-content: space-between;
+}
+.about-top{
+    max-width: 520px;
+   
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    color:  #1D1D1D;
+    
+}
+.about-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:  #777777;
+    margin: 20px 0;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 520px;
+    justify-content: space-between;
+}
+.about-btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid #969696;
+    color:#969696;
+    font-size: 16px ;
+    font-weight: 800;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+.about-list{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.about-list li{
+    list-style-type: none;
+}
+.about-icon{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+.about-btn:hover{
+    color: #fff;
+    background-color: grey;
+}
+.hotel-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+}
+.hotel-title{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #232323;
+}
+.hline{
+    width: 237px;
+    height: 1px;
+    background-color:#c4c4c4 ;
+}
+.hotel-btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid #969696;
+    color:#969696;
+    font-size: 16px ;
+    font-weight: 800;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+.hotel-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.hotel-card{
+    width: 33.3333%;    
+    min-height:450px ; 
+    position: relative;
+    overflow: hidden;
+}
+.card-label{
+    position: absolute;
+    top: 28px;
+    left: 0;
+    padding: 10px 15px;
+    background: #00000059;
+    color: white;
+    z-index: 10000;
+}
+.hotel-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+}
+.hotel-text{
+    font-family: 'Monserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.hotel-img{
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate3d(-50%,-50%,0);
+}
+.tures-title{
+    display: flex;
+    margin-top: 30px;
+}
+.tline{
+    width: 340px;
+    height: 1px;
+    background-color:#c4c4c4 ;
+    margin-left: 245px;
+    margin-top: 25px;
+}
+.tures-text{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 45px;
+}
+.tures-img{
+    margin-top: 100px;
+}
+.tures-btn{
+    margin-left: 50px;
+}
+.card-bottom{
+    height: 240px;
+    width: 327px;
+    background-color: #f8f8f8;
+}
+.tures-card{
+    position: relative;
+    height: 480px;
+    margin-left: 35px;
+}
+.tures-map-left{
+    position: absolute;
+    left: 245px;
+    bottom: -960px;
+}
+.tures-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tures-card-main-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Monserrat', sans-serif;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.tures-label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px 15px;
+    background: #00000059;
+    color: white;
+    z-index: 10000;  
+}
+.tures-card-midlle-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.card-midlle-container{
+    width: 316px;
+    height: 36px;
+}
+.hr-card{
+    margin-top: 26px;
+    width: 280px;
+    align-items: center;
+    margin-left: 20px;
+}
+.card-price{
+    display: flex;
+}
+.dont-tall{
+    margin-top: 23px;
+}
+.ot{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 440px;
+    left: 18px;
+    font-size: 16px;
+    color: crimson;
+}
+.dont-tall{
+    font-size: 24px;
+    position: absolute;
+    top: 412px;
+    left: 40px;
+    color: crimson;
+}
+.season{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #c9c9c9;
+    font-size: 12px;
+    left: 18px;
+    top: 460px;
+}
+.container-season{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 222px;
+    top: 445px;
+}
+.time-of-season{
+    font-size: 12px;
+}
+.ban{
+    margin-top: 13px;
+}
+.tures-map-right{
+    position: absolute;
+    right: 375px;
+    bottom: -960px;
+}
+.travel{
+    background: url(../IMG/GettyImages-685890576-2200x880\ 1.png) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.travel-container{
+    width: 1180px;
+    height: 525px;
+    background-color: #ffff;
+    margin-top: 30px;
+    position: relative;
+}
+.big-travel-container{
+    margin: 0 auto;
+}
+.big-travel{
+    text-transform: uppercase;
+    line-height: 55px;
+    font-weight: 900;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.226);
+    margin-top: 110px;
+}
+.travel-logo{
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+}
+.small-travel{
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Monserrat', sans-serif;
+    margin-top: -40px;
+    text-align: center;
+}
+.small-travel-container{
+    width: 790px;
+    height: 110px;
+    text-align: center;
+    margin: 0 auto;
+}
+.travel-card1{
+    width: 500px;
+    height: 100px;
+}
+.travel-text1{
+    position: absolute;
+    left: 160px;
+    top: 70px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img1{
+    position: absolute;
+    left: 72px;
+    top: 73px;
+    z-index: 30;
+}
+.travel-card2{
+    width: 500px;
+    height: 100px;
+}
+.travel-text2{
+    position: absolute;
+    left: 160px;
+    top: 225px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img2{
+    position: absolute;
+    left: 72px;
+    top: 223px;
+    width: 60px;
+    height: 58px;
+    z-index: 30;
+}
+.travel-card3{
+    width: 500px;
+    height: 100px;
+}
+.travel-text3{
+    position: absolute;
+    left: 160px;
+    top: 380px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img3{
+    position: absolute;
+    left: 72px;
+    top: 375px;
+    width: 60px;
+    height: 58px;
+    z-index: 30;
+}
+.travel-card4{
+    width: 450px;
+    height: 100px;
+}
+.travel-text4{
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img4{
+    position: absolute;
+    right: 512px;
+    top: 70px;
+    width: 60px;
+    height: 58px;
+    z-index: 30;
+}
+.travel-card5{
+    width: 450px;
+    height: 100px;   
+}
+.travel-text5{
+    position: absolute;
+    right: 70px;
+    top: 215px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img5{
+    position: absolute;
+    right: 512px;
+    top: 225px;
+    width: 60px;
+    height: 58px;
+    z-index: 30;
+}
+.travel-card6{
+    width: 450px;
+    height: 100px;   
+}
+.travel-text6{
+    position: absolute;
+    right: 70px;
+    top: 370px;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+}
+.travel-img6{
+    position: absolute;
+    right: 512px;
+    top: 370px;
+    width: 60px;
+    height: 58px;
+    z-index: 30;
+}
+.line1{
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    z-index: 2;
+    width: 2px;
+}
+.line2{
+    position: absolute;
+    right: 540px;
+    top: 90px;
+    z-index: 2;
+    width: 2px;
+}
+.form-logo{
+  position: relative; 
+}
+.form{
+    background: url(../IMG/OO_PM_Drone_ChurchIsland_Twilight_0867_MASTER\ 1.png) center center no-repeat;
+    background-size: cover;
+    height: 605px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px; 
+    
+  
+    width: 2000px;
+}
+.form-text{
+    text-transform: uppercase;
+    color: #fff ;
+    font-size: 40px;
+    width: 625px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.form-subtitle{
+    width: 590px;
+  
+    font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.w{
+   
+    color: #bfbfbf;
+}
+.ramka{
+    height: 180px;
+width: 275px;
+background-color: #13121226;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+padding: 30px;
+}
+input{
+  width: 270px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.137);
+}
+button{
+    width: 170px;
+    height: 50px;
+}
